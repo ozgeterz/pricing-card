@@ -1,6 +1,6 @@
 
 # Pricing Card Design
-## This app is designed using props and slots.
+## This app is designed using props and slots
 
 ## Here the trying link : https://pricing-card-eosin.vercel.app/
 
