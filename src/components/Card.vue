@@ -1,9 +1,9 @@
 <template>
-  <div class="card">
-    <p class="card-categories">{{card.categories}}</p>
-    <p class="card-price">{{card.price}}</p>
-    <p class="card-time">{{card.time}}</p>
-    <p class="card-comment">{{card.comment}}</p>
+  <div class="m-card">
+    <p class="m-card__categories">{{card.categories}}</p>
+    <p class="m-card__price">{{card.price}}</p>
+    <p class="m-card__time">{{card.time}}</p>
+    <p class="m-card__comment">{{card.comment}}</p>
     <button-vue :color="card.button">{{card.buttonname}}</button-vue>
   </div>
 </template>
@@ -22,28 +22,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card {
+.m-card {
   flex-direction: column;
   align-items: flex-start;
   font-style: normal;
   width: 30%;
-  &-categories {
+  &__categories {
     font-family: "Merriweather";
     font-weight: 700;
     font-size: 26px;
     color: #141843;
   }
-  &-price {
+  &__price {
     font-family: "IBM Plex Sans";
     font-weight: 700;
     font-size: 62px;
   }
-  &-time {
+  &__time {
     font-family: "IBM Plex Sans";
     font-weight: 500;
     font-size: 16px;
   }
-  &-comment {
+  &__comment {
     font-family: "IBM Plex Sans";
     font-weight: 500;
     font-size: 20px;
